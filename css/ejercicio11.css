@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(133, 122, 102);
+}
+
+.contenedor {
+    background-color: rgb(83, 197, 83);
+   
+}
+
+h2 {
+    color: rgb(55, 75, 120);
+    font-size: 35px;
+}
+
+label {
+    color: rgb(70, 70, 70);
+    font-size: 25px;
+}
+
+input {
+    background-color: rgb(7, 7, 7);
+    color: rgb(0, 240, 52);
+    font-size: 22px;
+}
+
+button {
+    background-color: rgb(55, 75, 120);
+    color: rgb(19, 19, 19);
+    font-size: 25px;
+}
