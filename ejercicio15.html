@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calificaciones de Estudiantes</title>
+
+    <link rel="stylesheet" href="css/ejercicio15.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h2>calificaciones</h2>
+
+        <label>Nombre del estudiante:</label>
+        <input type="text" id="nombre" placeholder="Ingresa el nombre">
+
+        <label>Calificación:</label>
+        <input type="text" id="calificacion" placeholder="Ingresa la calificación">
+
+        <button onclick="agregarEstudiante()">Agregar estudiante</button>
+        <button onclick="calcular()">Calcular</button>
+
+        <label>Promedio:</label>
+        <input type="text" id="promedio" readonly>
+
+        <label>Calificación más alta:</label>
+        <input type="text" id="mayor" readonly>
+
+        <label>Calificación más baja:</label>
+        <input type="text" id="menor" readonly>
+    </div>
+
+    <script src="js/ejercicio15.js"></script>
+</body>
+</html>
