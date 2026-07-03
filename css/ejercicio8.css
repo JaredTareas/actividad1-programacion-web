@@ -1,0 +1,71 @@
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #fff3e0;
+    margin: 0;
+    padding: 25px;
+    color: #2b2b2b;
+}
+
+.contenedor {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 0 18px rgba(230, 81, 0, 0.25);
+    border-top: 8px solid #e65100;
+}
+
+h1 {
+    color: #0b3d5c;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.horario {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.horario th, .horario td {
+    border: 1px solid #f4a261;
+    padding: 12px;
+    text-align: center;
+}
+
+.horario th {
+    background-color: #e65100;
+    color: white;
+    font-weight: bold;
+}
+
+.horario tbody tr:nth-child(even) {
+    background-color: #ffe0b2;
+}
+
+.laboratorio {
+    background-color: #ffcc80;
+    font-weight: bold;
+    color: #4e2600;
+}
+
+.proyecto {
+    background-color: #0b3d5c;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.requisito {
+    font-size: 14px;
+    color: #bf360c;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.notas {
+    text-align: center;
+    font-style: italic;
+    color: #8d4b00;
+}
