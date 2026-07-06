@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(235, 235, 235);
+    font-family: Arial;
+}
+
+.contenedor {
+    background-color: white;
+    width: 380px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(40, 80, 120);
+    font-size: 28px;
+}
+
+h3 {
+    color: rgb(70, 70, 70);
+    font-size: 22px;
+}
+
+label {
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+}
+
+input {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: rgb(40, 80, 120);
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 8px;
+    padding: 8px;
+    list-style: none;
+}
